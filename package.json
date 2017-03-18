@@ -1,8 +1,8 @@
 {
-  "name": "simple-website-2017",
+  "name": "nodeplay",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Node.js application",
+  "main": "server.js",
   "scripts": {
     "build-css": "stylus source/stylesheets/index.styl -o static/css",
     "watch-css": "stylus source/stylesheets/index.styl -o static/css -w",
@@ -11,14 +11,12 @@
     "watch": "npm run clean && npm run watch-css & nodemon server -e js,jade",
     "start": "node server"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "vinayaksm.in",
   "dependencies": {
     "express": "^4.15.2",
     "jade": "^1.11.0",
     "morgan": "^1.8.1",
     "nodemon": "^1.9.2",
-    "pug": "^0.1.0",
     "stylus": "^0.54.5"
   }
 }
